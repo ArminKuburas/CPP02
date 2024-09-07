@@ -1,0 +1,168 @@
+Default constructor called
+Int constructor called
+Float constructor called
+Multiplication operator called
+Default constructor called
+getRawBits member function called
+Destructor called
+Destructor called
+insertion operator called
+toFloat member function called
+0
+Increment operator called
+insertion operator called
+toFloat member function called
+0.00390625
+insertion operator called
+toFloat member function called
+0.00390625
+Post increment operator called
+Copy constructor called
+Increment operator called
+insertion operator called
+toFloat member function called
+0.00390625
+Destructor called
+insertion operator called
+toFloat member function called
+0.0078125
+insertion operator called
+toFloat member function called
+10.1016
+const Max function called
+Greater than operator called
+getRawBits member function called
+insertion operator called
+toFloat member function called
+10.1016
+Destructor called
+Destructor called
+Now we test all comparison operators
+Int constructor called
+Float constructor called
+Greater than operator called
+getRawBits member function called
+Less than operator called
+getRawBits member function called
+a < b
+Greater than or equal operator called
+getRawBits member function called
+Less than or equal operator called
+getRawBits member function called
+a <= b
+Equal operator called
+getRawBits member function called
+Not equal operator called
+getRawBits member function called
+a != b
+Destructor called
+Destructor called
+Now we test all arithmetic operators
+Int constructor called
+Float constructor called
+a + b = Addition operator called
+Default constructor called
+getRawBits member function called
+insertion operator called
+toFloat member function called
+10.5
+Destructor called
+a - b = Subtraction operator called
+Default constructor called
+getRawBits member function called
+insertion operator called
+toFloat member function called
+-0.5
+Destructor called
+a * b = Multiplication operator called
+Default constructor called
+getRawBits member function called
+insertion operator called
+toFloat member function called
+27.5
+Destructor called
+a / b = Division operator called
+getRawBits member function called
+Default constructor called
+getRawBits member function called
+Copy constructor called
+Destructor called
+insertion operator called
+toFloat member function called
+0.90625
+Destructor called
+Destructor called
+Destructor called
+Now we test all increment/Decrement operators
+Default constructor called
+a = insertion operator called
+toFloat member function called
+0
+a++ = Post increment operator called
+Copy constructor called
+Increment operator called
+insertion operator called
+toFloat member function called
+0
+Destructor called
+a = insertion operator called
+toFloat member function called
+0.00390625
+++a = Increment operator called
+insertion operator called
+toFloat member function called
+0.0078125
+a = insertion operator called
+toFloat member function called
+0.0078125
+a-- = Post decrement operator called
+Copy constructor called
+Decrement operator called
+insertion operator called
+toFloat member function called
+0.0078125
+Destructor called
+a = insertion operator called
+toFloat member function called
+0.00390625
+--a = Decrement operator called
+insertion operator called
+toFloat member function called
+0
+a = insertion operator called
+toFloat member function called
+0
+Destructor called
+Now we test min/max functions
+Int constructor called
+Float constructor called
+Float constructor called
+Int constructor called
+min(a, b) = Min function called
+Less than operator called
+getRawBits member function called
+insertion operator called
+toFloat member function called
+5
+max(a, b) = Max function called
+Greater than operator called
+getRawBits member function called
+insertion operator called
+toFloat member function called
+5.5
+min(c, d) = const Min function called
+Less than operator called
+getRawBits member function called
+insertion operator called
+toFloat member function called
+5
+max(c, d) = const Max function called
+Greater than operator called
+getRawBits member function called
+insertion operator called
+toFloat member function called
+5.5
+Destructor called
+Destructor called
+Destructor called
+Destructor called
