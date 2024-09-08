@@ -6,14 +6,14 @@
 #    By: akuburas <akuburas@student.hive.fi>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/09/08 14:00:32 by akuburas          #+#    #+#              #
-#    Updated: 2024/09/08 14:00:50 by akuburas         ###   ########.fr        #
+#    Updated: 2024/09/08 14:01:36 by akuburas         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 C++ = c++
 CFLAGS = -Wall -Wextra -Werror -std=c++98
 
-NAME = exercise02
+NAME = exercise03
 
 SRCS = main.cpp Fixed.cpp bsp.cpp Point.cpp
 
