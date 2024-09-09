@@ -6,7 +6,7 @@
 /*   By: akuburas <akuburas@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/07 20:29:29 by akuburas          #+#    #+#             */
-/*   Updated: 2024/09/07 20:30:39 by akuburas         ###   ########.fr       */
+/*   Updated: 2024/09/09 15:39:22 by akuburas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,8 +28,8 @@ class Point
 		Fixed getY(void) const;
 
 	private:
-		Fixed _x;
-		Fixed _y;
+		 Fixed _x;
+		 Fixed _y;
 };
 
 #endif
