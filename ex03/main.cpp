@@ -6,7 +6,7 @@
 /*   By: akuburas <akuburas@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/08 13:59:45 by akuburas          #+#    #+#             */
-/*   Updated: 2024/09/08 14:05:26 by akuburas         ###   ########.fr       */
+/*   Updated: 2024/09/09 09:11:39 by akuburas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,9 @@ bool bsp(Point const a, Point const b, Point const c, Point const point);
 int	main(void)
 {
 	Point a(0, 0);
-	Point b(0, 1);
+	Point b(0.5, 1);
 	Point c(1, 0);
-	Point point(0, 0.5);
+	Point point(0.5, 0.5);
 
 	if (bsp(a, b, c, point))
 		std::cout << "Point is inside the triangle" << std::endl;

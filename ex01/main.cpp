@@ -6,7 +6,7 @@
 /*   By: akuburas <akuburas@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/06 16:46:13 by akuburas          #+#    #+#             */
-/*   Updated: 2024/09/06 16:48:27 by akuburas         ###   ########.fr       */
+/*   Updated: 2024/09/09 09:28:42 by akuburas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,10 @@ int	main(void)
 	std::cout << "b is " << b.toFloat() << " as float" << std::endl;
 	std::cout << "c is " << c.toFloat() << " as float" << std::endl;
 	std::cout << "d is " << d.toFloat() << " as float" << std::endl;
+
+	std::cout << "a is " << a.getRawBits() << std::endl;
+	std::cout << "b memory address is " << &b << std::endl;
+	std::cout << "d memory address is " << &d << std::endl;
 
 	return (0);
 }
