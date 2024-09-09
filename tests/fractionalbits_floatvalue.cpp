@@ -1,28 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.cpp                                           :+:      :+:    :+:   */
+/*   fractionalbits_floatvalue.cpp                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: akuburas <akuburas@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/09/08 13:59:45 by akuburas          #+#    #+#             */
-/*   Updated: 2024/09/09 12:52:59 by akuburas         ###   ########.fr       */
+/*   Created: 2024/09/09 10:38:34 by akuburas          #+#    #+#             */
+/*   Updated: 2024/09/09 10:40:07 by akuburas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Point.hpp"
-
-bool bsp(Point const a, Point const b, Point const c, Point const point);
+#include <iostream>
 
 int	main(void)
 {
-	Point a(0, 0);
-	Point b(0.5f, 1);
-	Point c(1, 0);
-	Point point(-0.5f, -0.5f);
-
-	if (bsp(a, b, c, point))
-		std::cout << "Point is inside the triangle" << std::endl;
-	else
-		std::cout << "Point is outside the triangle" << std::endl;
+	int	x = 1 << 8;
+	std::cout << x << std::endl;
+	return 0;
 }
