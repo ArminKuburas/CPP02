@@ -6,7 +6,11 @@
 /*   By: akuburas <akuburas@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/06 17:18:28 by akuburas          #+#    #+#             */
+<<<<<<< HEAD
 /*   Updated: 2024/09/11 00:55:12 by akuburas         ###   ########.fr       */
+=======
+/*   Updated: 2024/09/09 15:36:29 by akuburas         ###   ########.fr       */
+>>>>>>> c7afceb89fa64a422b122ced814170fe41e52e8f
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -137,7 +141,7 @@ Fixed Fixed::operator*(const Fixed& fixed) const
 	//std::cout << "Multiplication operator called" << std::endl;
 	Fixed tmp;
 	
-	tmp._FixedPointValue = (this->_FixedPointValue * fixed.getRawBits()) >> this->_FractionalBits;
+	tmp._FixedPointValue = ((long)this->_FixedPointValue * fixed.getRawBits()) >> this->_FractionalBits;
 	return (tmp);
 }
 

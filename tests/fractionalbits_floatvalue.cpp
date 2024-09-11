@@ -1,35 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Point.hpp                                          :+:      :+:    :+:   */
+/*   fractionalbits_floatvalue.cpp                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: akuburas <akuburas@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/09/07 20:29:29 by akuburas          #+#    #+#             */
-/*   Updated: 2024/09/11 13:03:25 by akuburas         ###   ########.fr       */
+/*   Created: 2024/09/09 10:38:34 by akuburas          #+#    #+#             */
+/*   Updated: 2024/09/09 10:40:07 by akuburas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef POINT_HPP
-# define POINT_HPP
+#include <iostream>
 
-#include "Fixed.hpp"
-
-class Point
+int	main(void)
 {
-	public:
-		Point();
-		Point(const float x, const float y);
-		Point(const Point& original);
-		~Point();
-		Point& operator=(const Point& point);
-
-		Fixed getX(void) const;
-		Fixed getY(void) const;
-
-	private:
-		const Fixed _x;
-		const Fixed _y;
-};
-
-#endif
+	int	x = 1 << 8;
+	std::cout << x << std::endl;
+	return 0;
+}

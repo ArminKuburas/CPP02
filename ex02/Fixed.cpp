@@ -6,7 +6,7 @@
 /*   By: akuburas <akuburas@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/06 17:18:28 by akuburas          #+#    #+#             */
-/*   Updated: 2024/09/07 11:07:58 by akuburas         ###   ########.fr       */
+/*   Updated: 2024/09/09 15:36:03 by akuburas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -137,7 +137,7 @@ Fixed Fixed::operator*(const Fixed& fixed) const
 	std::cout << "Multiplication operator called" << std::endl;
 	Fixed tmp;
 	
-	tmp._FixedPointValue = (this->_FixedPointValue * fixed.getRawBits()) >> this->_FractionalBits;
+	tmp._FixedPointValue = ((long)this->_FixedPointValue * fixed.getRawBits()) >> this->_FractionalBits;
 	return (tmp);
 }
 
@@ -166,7 +166,7 @@ Fixed Fixed::operator++(int)
 {
 	std::cout << "Post increment operator called" << std::endl;
 	Fixed tmp(*this);
-	operator++();
+	++this->_FixedPointValue;
 	return (tmp);
 }
 
@@ -181,7 +181,7 @@ Fixed Fixed::operator--(int)
 {
 	std::cout << "Post decrement operator called" << std::endl;
 	Fixed tmp(*this);
-	operator--();
+	--this->_FixedPointValue;
 	return (tmp);
 }
 
@@ -194,7 +194,7 @@ Fixed& Fixed::min(Fixed& a, Fixed& b)
 const Fixed& Fixed::min(const Fixed& a, const Fixed& b)
 {
 	std::cout << "const Min function called" << std::endl;
-	return (a < b) ? a : b;
+	return (a < b ? a : b);
 }
 
 Fixed& Fixed::max(Fixed& a, Fixed& b)
@@ -206,5 +206,5 @@ Fixed& Fixed::max(Fixed& a, Fixed& b)
 const Fixed& Fixed::max(const Fixed& a, const Fixed& b)
 {
 	std::cout << "const Max function called" << std::endl;
-	return (a > b) ? a : b;
+	return (a > b ? a : b);
 }

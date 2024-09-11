@@ -6,7 +6,7 @@
 /*   By: akuburas <akuburas@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/06 16:46:13 by akuburas          #+#    #+#             */
-/*   Updated: 2024/09/09 09:28:42 by akuburas         ###   ########.fr       */
+/*   Updated: 2024/09/09 11:33:06 by akuburas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,8 @@ int	main(void)
 	std::cout << "c is " << c.toInt() << " as integer" << std::endl;
 	std::cout << "d is " << d.toInt() << " as integer" << std::endl;
 
+	std::cout << "Additional tests from Armin\n" << std::endl;
+
 	std::cout << "a is " << a.toFloat() << " as float" << std::endl;
 	std::cout << "b is " << b.toFloat() << " as float" << std::endl;
 	std::cout << "c is " << c.toFloat() << " as float" << std::endl;
@@ -39,6 +41,12 @@ int	main(void)
 	std::cout << "a is " << a.getRawBits() << std::endl;
 	std::cout << "b memory address is " << &b << std::endl;
 	std::cout << "d memory address is " << &d << std::endl;
+	Fixed const e(0.1f);
+	std::cout << "e is " << e << std::endl;
+	std::cout << "e is " << e.toFloat() << " as float" << std::endl;
+	std::cout << "e is " << e.toInt() << " as integer" << std::endl;
+
+	
 
 	return (0);
 }
